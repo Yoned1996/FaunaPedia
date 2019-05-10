@@ -1,9 +1,8 @@
-
 const $start = document.getElementById('start');
 const $principal = document.getElementById('principal');
 const $nav = document.getElementById('nav');
 const $close = document.getElementById('close');
-// 
+const $body = document.getElementById('body');
 
 $start.addEventListener('click',iniciar);
 $close.addEventListener('click',cerrar)
@@ -13,6 +12,7 @@ function iniciar(){
     $principal.style.display='none' ;
     $nav.style.display='block' ;
     $nav.style.animation='fadeIn 2s forwards';
+    $body.style.overflow='auto';
 }
 
 function cerrar(){
@@ -20,6 +20,7 @@ function cerrar(){
     $principal.style.display='block' ;
     $nav.style.display='none' ;
     $nav.style.animation='fadeOut 2s forwards';
+    $body.style.overflow='hidden';
 }
 
 // ==================SLIDE ORINOQUIA======================
@@ -64,36 +65,6 @@ $next.addEventListener('click',()=>{
     counter++;
     $slide.style.transform='translateX('+(-size*counter)+'px)';
 })
-
-// $prev.addEventListener('click',()=>{
-//     if(counter<= 0)return;
-//     $slide.style.transition = 'transform 0.4s ease-in-out';
-//     counter--;
-//     $nameAnimal.setAttribute('id','o-'+counter);
-//     let idO = $nameAnimal.getAttribute('id');
-//     switch(idO) {
-//         case "o-1":
-//             let texto = `<h3>nombre animal 1</h3>`
-//             $nameAnimal.innerHTML = texto;
-//             break;
-//         case "o-2":
-//             let texto5 = `<h3>nombre animal 2</h3>`
-//             $nameAnimal.innerHTML = texto5;
-//             break;
-//         case "o-3":
-//             let texto2 = `<h3>nombre animal 3</h3>`
-//             $nameAnimal.innerHTML = texto2;
-//             break;
-//         case "o-4":
-//             let texto3 = `<h3>nombre animal 4</h3>`
-//             $nameAnimal.innerHTML = texto3;
-//             break;
-//         default:
-//             let texto4 = `<h3>nombre animal 5</h3>`
-//             $nameAnimal.innerHTML = texto4;
-//       }
-//     $slide.style.transform='translateX('+(-size*counter)+'px)';
-// })
 
 $slide.addEventListener('transitionend',()=>{
     if($slideImages[counter].id==='lastClone-o'){
@@ -144,10 +115,10 @@ const $modal = document.getElementById('modal-o');
     $modal.style.animation='fadeIn 2s forwards';
     $closeO.style.animation='fadeIn 2s forwards';
  })
+ 
+  $closeO.addEventListener('click',()=>{
+     $modal.style.animation='fadeOut 2s forwards';
+     $closeO.style.animation='fadeOut 2s forwards';
+  })
 
  
-
- $closeO.addEventListener('click',()=>{
-    $modal.style.animation='fadeOut 2s forwards';
-    $closeO.style.animation='fadeOut 2s forwards';
- })

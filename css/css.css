@@ -1,3 +1,6 @@
+#body{
+    overflow: hidden;
+}
 *{
     margin: 0;
     padding: 0;
@@ -247,7 +250,7 @@ h2{
     display: none
 }
 
-.close-o{
+.close-o,.close-p,.close-c,.close-an,.close-am{
     border: solid red 2px;
     position: absolute;
     z-index: 6;
@@ -257,4 +260,17 @@ h2{
     width: 30px;
     height: 30px;
     display: none;
+}
+
+.subir{
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    display: block;
+    background: white;
+    z-index: 10;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    text-align: center;
 }
