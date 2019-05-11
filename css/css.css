@@ -32,12 +32,19 @@ h1{
     color: white;
     font-weight: 80px;
     font-size: 42px;
+    font-weight: lighter;
 }
 h2{
     font-family: 'Playfair Display';
     color: black;
     font-weight: 500;
     font-size: 42px;
+    font-weight: lighter;
+}
+
+h3,h4,h5,h6{
+    font-family: 'Playfair Display';
+    font-weight: lighter;
 }
 /* ==============INICIO==================== */
 .principal{
@@ -227,13 +234,18 @@ h2{
 }
 
 .name-animal{
-    width: 250px;
-    height: 50px;
+    width: 300px;
+    height: 100px;
     padding: 5px;
     background-color: white;
     position: absolute;
-    text-align: center;
+    text-align: left;
     cursor: pointer;
+    font-size: 25px;
+    padding: 10px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: center;
 }
 
 /* ==============SLIDE==================== */
@@ -241,17 +253,18 @@ h2{
 
 .modal{
     width: 100%;
-    height: 96vh;
+    height: 100vh;
     /* margin-top: 4vh; */
     background: white;
     position: absolute;
     z-index: 5;
     margin: auto;
-    display: none
+    display: none;
+    overflow: hidden;
+    /* display: flex; */
 }
 
 .close-o,.close-p,.close-c,.close-an,.close-am{
-    border: solid red 2px;
     position: absolute;
     z-index: 6;
     top: 20px;
@@ -273,4 +286,94 @@ h2{
     right: 20px;
     border-radius: 50%;
     text-align: center;
+}
+
+/* =================================================== */
+/* =================================================== */
+/* =================================================== */
+/* =================================================== */
+/* =================================================== */
+
+.foto-animal{
+    width: 49%;
+    overflow: hidden;
+    height: 100vh;
+    display: inline-block;
+    position: relative;
+}
+
+.head-foto-animal{
+    position:absolute;
+    width: 80%;
+    top: 10px;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.head-foto-animal img{
+    height: 60px;
+}
+
+.footer-foto-animal{
+    position: absolute;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    bottom: 10px;
+    justify-content: space-around;
+}
+
+.footer-foto-animal img{
+    height: 50px;
+}
+
+.info-animal{
+    width: 50%;
+    height: 100vh;
+    display: inline-block;
+    overflow: auto;
+    padding: 20px 10%;
+    box-sizing: border-box;
+}
+
+.head-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-info h3{
+    font-size: 25px;
+}
+
+.head-info h4{
+    font-size: 25px;
+}
+
+.estado{
+    height: 50px;
+}
+
+.estado img{
+    height: 50px;
+    border: solid red 1px;
+}
+
+
+.title-caribe{
+    color: rgb(236, 196, 72)
+}
+
+.info{
+    margin: 80px 0;
+    text-align: justify;
+}
+
+.info-animal h5{
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
 }
