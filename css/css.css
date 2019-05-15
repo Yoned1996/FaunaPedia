@@ -302,6 +302,11 @@ h3,h4,h5,h6{
     position: relative;
 }
 
+.picture-animal{
+    display: flex;
+    height: 100vh;
+}
+
 .head-foto-animal{
     position:absolute;
     width: 80%;
@@ -364,6 +369,22 @@ h3,h4,h5,h6{
 
 .title-caribe{
     color: rgb(236, 196, 72)
+}
+
+.title-pacifico{
+    color: rgb(205, 106, 73)
+}
+
+.title-andina{
+    color: rgb(166, 9, 65)
+}
+
+.title-orinoquia{
+    color: rgb(167, 78, 147)
+}
+
+.title-amazonica{
+    color: rgb(108, 171, 168)
 }
 
 .info{
