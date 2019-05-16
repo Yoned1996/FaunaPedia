@@ -60,7 +60,6 @@ $slide_AN_.addEventListener('transitionend',()=>{
 const $closeAN = document.getElementById('close-an');
 const $modal_AN = document.getElementById('modal-an');
  $nameAnimal_AN.addEventListener('click',()=>{
-    alert($nameAnimal_AN.getAttribute('id'))
     // let textoDescription_AN = `<h3>nombre animal</h3>${$nameAnimal_AN.getAttribute('id')}`;
     let idAN = $nameAnimal_AN.getAttribute('id');
     switch(idAN) {
@@ -316,11 +315,11 @@ const $modal_AN = document.getElementById('modal-an');
     // $modal_AN.innerHTML = textoDescription_AN;
     $modal_AN.style.display='block' ;
     $closeAN.style.display='block' ;
-    $modal_AN.style.animation='fadeIn 2s forwards';
-    $closeAN.style.animation='fadeIn 2s forwards';
+    $modal_AN.style.animation='fadeIn .5s forwards';
+    $closeAN.style.animation='fadeIn .5s forwards';
  })
  
   $closeAN.addEventListener('click',()=>{
-     $modal_AN.style.animation='fadeOut 2s forwards';
-     $closeAN.style.animation='fadeOut 2s forwards';
+     $modal_AN.style.animation='fadeOut .5s forwards';
+     $closeAN.style.animation='fadeOut .5s forwards';
   })

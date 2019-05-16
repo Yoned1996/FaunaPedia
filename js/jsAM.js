@@ -64,7 +64,6 @@ $slide_AM_.addEventListener('transitionend',()=>{
 const $closeAM = document.getElementById('close-am');
 const $modal_AM = document.getElementById('modal-am');
  $nameAnimal_AM.addEventListener('click',()=>{
-    alert($nameAnimal_AM.getAttribute('id'))
     // let textoDescription_AM = `<h3>nombre animal</h3>${$nameAnimal_AM.getAttribute('id')}`;
     let idAM = $nameAnimal_AM.getAttribute('id');
     switch(idAM) {
@@ -296,11 +295,11 @@ const $modal_AM = document.getElementById('modal-am');
     // $modal_AM.innerHTML = textoDescription_AM;
     $modal_AM.style.display='block' ;
     $closeAM.style.display='block' ;
-    $modal_AM.style.animation='fadeIn 2s forwards';
-    $closeAM.style.animation='fadeIn 2s forwards';
+    $modal_AM.style.animation='fadeIn .5s forwards';
+    $closeAM.style.animation='fadeIn .5s forwards';
  })
  
   $closeAM.addEventListener('click',()=>{
-     $modal_AM.style.animation='fadeOut 2s forwards';
-     $closeAM.style.animation='fadeOut 2s forwards';
+     $modal_AM.style.animation='fadeOut .5s forwards';
+     $closeAM.style.animation='fadeOut .5s forwards';
   })

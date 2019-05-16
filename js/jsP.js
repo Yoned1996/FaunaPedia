@@ -62,7 +62,6 @@ $slide_P_.addEventListener('transitionend',()=>{
 const $closeP = document.getElementById('close-p');
 const $modal_P = document.getElementById('modal-p');
  $nameAnimal_P.addEventListener('click',()=>{
-    alert($nameAnimal_P.getAttribute('id'))
     // let textoDescription_P = `<h3>nombre animal</h3>${$nameAnimal_P.getAttribute('id')}`;
     let idP = $nameAnimal_P.getAttribute('id');
     switch(idP) {
@@ -298,11 +297,11 @@ const $modal_P = document.getElementById('modal-p');
     // $modal_P.innerHTML = textoDescription_P;
     $modal_P.style.display='block' ;
     $closeP.style.display='block' ;
-    $modal_P.style.animation='fadeIn 2s forwards';
-    $closeP.style.animation='fadeIn 2s forwards';
+    $modal_P.style.animation='fadeIn .5s forwards';
+    $closeP.style.animation='fadeIn .5s forwards';
  })
  
   $closeP.addEventListener('click',()=>{
-     $modal_P.style.animation='fadeOut 2s forwards';
-     $closeP.style.animation='fadeOut 2s forwards';
+     $modal_P.style.animation='fadeOut .5s forwards';
+     $closeP.style.animation='fadeOut .5s forwards';
   })

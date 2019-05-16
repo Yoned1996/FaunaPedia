@@ -3,23 +3,50 @@ const $principal = document.getElementById('principal');
 const $nav = document.getElementById('nav');
 const $close = document.getElementById('close');
 const $body = document.getElementById('body');
+const $main = document.getElementById('main');
+const $menu2 = document.getElementById('menu-2');
+const $subir = document.getElementById('subir');
+let clicks = 0;
+
 
 $start.addEventListener('click',iniciar);
-$close.addEventListener('click',cerrar)
+$close.addEventListener('click',cerrar);
+$main.addEventListener('click',main);
 
 function iniciar(){
-    $principal.style.animation='fadeOut 2s forwards';
+    $principal.style.animation='fadeOut .5s forwards';
     $principal.style.display='none' ;
     $nav.style.display='block' ;
-    $nav.style.animation='fadeIn 2s forwards';
+    $nav.style.animation='fadeIn .5s forwards';
+    $subir.style.display='block' ;
+    $subir.style.animation='fadeIn .5s forwards';
+    $main.style.display='block' ;
+    $main.style.animation='fadeIn .5s forwards';
 }
 
 function cerrar(){
-    $principal.style.animation='fadeIn 2s forwards';
+    $principal.style.animation='fadeIn .5s forwards';
     $principal.style.display='block' ;
     $nav.style.display='none' ;
-    $nav.style.animation='fadeOut 2s forwards';
+    $nav.style.animation='fadeOut .5s forwards';
+    $subir.style.display='block' ;
+    $subir.style.animation='fadeOut .5s forwards';
+    $main.style.display='block' ;
+    $main.style.animation='fadeOut .5s forwards';
 }
+
+function main(e){
+    clicks++;
+    console.log(clicks%2);
+    if(clicks%2==0){
+        $menu2.style.animation='menuOut .5s forwards'
+    }
+    else{
+        $menu2.style.animation='menu .5s forwards'
+    }
+}
+
+
 
 // ==================SLIDE ORINOQUIA======================
 
@@ -83,7 +110,6 @@ $slide.addEventListener('transitionend',()=>{
 const $closeO = document.getElementById('close-o');
 const $modal = document.getElementById('modal-o');
  $nameAnimal.addEventListener('click',()=>{
-    alert($nameAnimal.getAttribute('id'))
     // let textoDescription = `<h3>nombre animal</h3>${$nameAnimal.getAttribute('id')}`;
     let idO = $nameAnimal.getAttribute('id');
     switch(idO) {
@@ -369,13 +395,13 @@ const $modal = document.getElementById('modal-o');
     // $modal.innerHTML = textoDescription;
     $modal.style.display='block' ;
     $closeO.style.display='block' ;
-    $modal.style.animation='fadeIn 2s forwards';
-    $closeO.style.animation='fadeIn 2s forwards';
+    $modal.style.animation='fadeIn .5s forwards';
+    $closeO.style.animation='fadeIn .5s forwards';
  })
  
   $closeO.addEventListener('click',()=>{
-     $modal.style.animation='fadeOut 2s forwards';
-     $closeO.style.animation='fadeOut 2s forwards';
+     $modal.style.animation='fadeOut .5s forwards';
+     $closeO.style.animation='fadeOut .5s forwards';
   })
 
  

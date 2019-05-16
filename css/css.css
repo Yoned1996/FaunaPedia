@@ -126,6 +126,24 @@ h3,h4,h5,h6{
         visibility: visible;
     }
 }
+
+@keyframes menu{
+    from{
+        transform: translateX(3000px)
+    }
+    to{
+        transform: translateX(0)
+    }
+}
+
+@keyframes menuOut{
+    from{
+        transform: translateX(0)
+    }
+    to{
+        transform: translateX(3000px)
+    }
+}
 /* ==============MENU==================== */
 
 .nav{
@@ -234,15 +252,13 @@ h3,h4,h5,h6{
 }
 
 .name-animal{
-    width: 300px;
-    height: 100px;
-    padding: 5px;
+    width: 320px;
     background-color: white;
     position: absolute;
     text-align: left;
     cursor: pointer;
     font-size: 25px;
-    padding: 10px 0 0 20px;
+    padding: 10px 0 20px 20px;
     display: flex;
     flex-direction: column;
     vertical-align: center;
@@ -276,16 +292,55 @@ h3,h4,h5,h6{
 }
 
 .subir{
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     position: fixed;
-    display: block;
+    display: flex;
+    align-items: center;
     background: white;
     z-index: 10;
     bottom: 20px;
     right: 20px;
     border-radius: 50%;
     text-align: center;
+    display: none;
+}
+
+.subir img{
+    width: 50%;
+}
+
+#main{
+    display: none;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    right: 20px;
+    z-index: 20;
+}
+
+.menu-2{
+    width: 480px;
+    height: 80px;
+    position: fixed;
+    justify-content: space-around;
+    z-index: 10;
+    top: 10px;
+    right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;    
+    transform: translateX(3000px)
+}
+ 
+.menu-2-item{
+    width: 80px;
+    height: 80px;
+}
+
+.menu-2-item img{
+    width: 100%;
 }
 
 /* =================================================== */
