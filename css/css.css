@@ -317,7 +317,7 @@ h3,h4,h5,h6{
     height: 50px;
     top: 20px;
     right: 20px;
-    z-index: 20;
+    z-index: 4;
 }
 
 .menu-2{
@@ -325,7 +325,7 @@ h3,h4,h5,h6{
     height: 80px;
     position: fixed;
     justify-content: space-around;
-    z-index: 10;
+    z-index: 4;
     top: 10px;
     right: 100px;
     display: flex;
@@ -372,8 +372,12 @@ h3,h4,h5,h6{
     overflow: hidden;
 }
 
-.head-foto-animal img{
-    height: 60px;
+.head-foto-animal img:nth-child(1){
+    height: 50px;
+}
+
+.head-foto-animal img:nth-child(2){
+    height: 90px;
 }
 
 .footer-foto-animal{
@@ -386,7 +390,7 @@ h3,h4,h5,h6{
 }
 
 .footer-foto-animal img{
-    height: 50px;
+    height: 100px;
 }
 
 .info-animal{
@@ -417,8 +421,7 @@ h3,h4,h5,h6{
 }
 
 .estado img{
-    height: 50px;
-    border: solid red 1px;
+    height: 80px;
 }
 
 

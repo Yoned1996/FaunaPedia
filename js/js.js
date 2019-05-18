@@ -122,9 +122,9 @@ const $modal = document.getElementById('modal-o');
                     <img src="img/orinoquia.png" alt="">
                 </div>
                 <div class="footer-foto-animal">
-                    <img src="img/reptil.png" alt="">
-                    <img src="img/carnivoro.png" alt="">
-                    <img src="img/selva.png" alt="">
+                    <img src="img/ave.png" alt="">
+                    <img src="img/herbivoro.png" alt="">
+                    <img src="img/manglares.png" alt="">
                 </div>
             </div>
             <div class="info-animal">
@@ -135,7 +135,7 @@ const $modal = document.getElementById('modal-o');
                         <h4 class="title-orinoquia">Eudocimus ruber</h4>
                         </div>
                         <div class="estado">
-                            <img src="img/vulnerable.png" alt="">
+                            <img src="img/LC5.png" alt="">
                         </div>
                     </div>
                     <div class="info">
@@ -191,9 +191,9 @@ const $modal = document.getElementById('modal-o');
                     <img src="img/orinoquia.png" alt="">
                 </div>
                 <div class="footer-foto-animal">
-                    <img src="img/reptil.png" alt="">
-                    <img src="img/carnivoro.png" alt="">
-                    <img src="img/selva.png" alt="">
+                    <img src="img/mamifero.png" alt="">
+                    <img src="img/herbivoro.png" alt="">
+                    <img src="img/bosques.png" alt="">
                 </div>
             </div>
             <div class="info-animal">
@@ -204,7 +204,7 @@ const $modal = document.getElementById('modal-o');
                         <h4 class="title-orinoquia">Tapirus</h4>
                         </div>
                         <div class="estado">
-                            <img src="img/vulnerable.png" alt="">
+                            <img src="img/vulnerable5.png" alt="">
                         </div>
                     </div>
                     <div class="info">
@@ -261,9 +261,9 @@ const $modal = document.getElementById('modal-o');
                     <img src="img/orinoquia.png" alt="">
                 </div>
                 <div class="footer-foto-animal">
-                    <img src="img/reptil.png" alt="">
-                    <img src="img/carnivoro.png" alt="">
-                    <img src="img/selva.png" alt="">
+                    <img src="img/mamifero.png" alt="">
+                    <img src="img/herbivoro.png" alt="">
+                    <img src="img/bosques.png" alt="">
                 </div>
             </div>
             <div class="info-animal">
@@ -274,7 +274,7 @@ const $modal = document.getElementById('modal-o');
                         <h4 class="title-orinoquia">Hydrochoerus hydrochaeris</h4>
                         </div>
                         <div class="estado">
-                            <img src="img/vulnerable.png" alt="">
+                            <img src="img/LC5.png" alt="">
                         </div>
                     </div>
                     <div class="info">
@@ -335,9 +335,9 @@ const $modal = document.getElementById('modal-o');
                     <img src="img/orinoquia.png" alt="">
                 </div>
                 <div class="footer-foto-animal">
-                    <img src="img/reptil.png" alt="">
+                    <img src="img/mamifero.png" alt="">
                     <img src="img/carnivoro.png" alt="">
-                    <img src="img/selva.png" alt="">
+                    <img src="img/rios-arroyos.png" alt="">
                 </div>
             </div>
             <div class="info-animal">
@@ -348,7 +348,7 @@ const $modal = document.getElementById('modal-o');
                         <h4 class="title-orinoquia">Pteronura brasiliensis</h4>
                         </div>
                         <div class="estado">
-                            <img src="img/vulnerable.png" alt="">
+                            <img src="img/EN5.png" alt="">
                         </div>
                     </div>
                     <div class="info">

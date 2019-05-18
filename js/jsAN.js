@@ -20,7 +20,8 @@ $next_AN.addEventListener('click',()=>{
     let idAN = $nameAnimal_AN.getAttribute('id');
     switch(idAN) {
         case "an-1":
-            let texto = `<h4 class="title-andina">Cóndor de los Andes</h4>`
+            let texto = `<h3>Cóndor de los Andes</h3>
+            <h4 class="title-andina">Vultur gryphus</h4>`
             $nameAnimal_AN.innerHTML = texto;
             break;
         case "an-2":
@@ -74,16 +75,18 @@ const $modal_AN = document.getElementById('modal-an');
                 <div class="footer-foto-animal">
                     <img src="img/ave.png" alt="">
                     <img src="img/carroñero.png" alt="">
+                    <img src="img/bosque-montañoso.png" alt="">
                 </div>
             </div>
             <div class="info-animal">
                 <div class="total-info animal">
                     <div class="head-info">
                         <div class="title-info">
-                            <h4 class="title-andina">Cóndor de los Andes</h4>
+                            <h3>Cóndor de los Andes</h3>
+                            <h4 class="title-andina">Vultur gryphus</h4>
                         </div>
                         <div class="estado">
-                            <img src="img/vulnerable.png" alt="">
+                            <img src="img/vulnerable3.png" alt="">
                         </div>
                     </div>
                     <div class="info">
@@ -137,6 +140,7 @@ const $modal_AN = document.getElementById('modal-an');
                 <div class="footer-foto-animal">
                     <img src="img/mamifero.png" alt="">
                     <img src="img/herbivoro.png" alt="">
+                    <img src="img/praderas.png" alt="">
                 </div>
             </div>
             <div class="info-animal">
@@ -147,7 +151,7 @@ const $modal_AN = document.getElementById('modal-an');
                             <h4 class="title-andina">Odocoileus virginianus</h4>
                         </div>
                         <div class="estado">
-                            <img src="img/preocupacion-menor.png" alt="">
+                            <img src="img/LC5.png" alt="">
                         </div>
                     </div>
                     <div class="info">
@@ -195,6 +199,7 @@ const $modal_AN = document.getElementById('modal-an');
                 <div class="footer-foto-animal">
                     <img src="img/ave.png" alt="">
                     <img src="img/herbivoro.png" alt="">
+                    <img src="img/selvas.png" alt="">
                 </div>
             </div>
             <div class="info-animal">
@@ -204,7 +209,7 @@ const $modal_AN = document.getElementById('modal-an');
                             <h4 class="title-andina">Colibri delphinae</h4>
                         </div>
                         <div class="estado">
-                            <img src="img/preocupacion-menor.png" alt="">
+                            <img src="img/LC5.png" alt="">
                         </div>
                     </div>
                     <div class="info">
@@ -257,6 +262,7 @@ const $modal_AN = document.getElementById('modal-an');
                 <div class="footer-foto-animal">
                     <img src="img/mamifero.png" alt="">
                     <img src="img/omnivoro.png" alt="">
+                    <img src="img/bosque-montañoso.png" alt="">
                 </div>
             </div>
             <div class="info-animal">
@@ -267,7 +273,7 @@ const $modal_AN = document.getElementById('modal-an');
                             <h4 class="title-andina">Tremarctos ornatus</h4>
                         </div>
                         <div class="estado">
-                            <img src="img/vulnerable.png" alt="">
+                            <img src="img/vulnerable3.png" alt="">
                         </div>
                     </div>
                     <div class="info">

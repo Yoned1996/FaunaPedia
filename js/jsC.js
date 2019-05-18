@@ -20,7 +20,8 @@ $next_C.addEventListener('click',()=>{
     let idC = $nameAnimal_C.getAttribute('id');
     switch(idC) {
         case "c-1":
-            let texto = `<h4 class="title-caribe">El mono tití cabeciblanco</h4>`
+            let texto = `<h3>El mono tití cabeciblanco</h3>
+            <h4 class="title-caribe">Saguinus oedipus</h4>`
             $nameAnimal_C.innerHTML = texto;
             break;
         case "c-2":
@@ -29,7 +30,8 @@ $next_C.addEventListener('click',()=>{
             $nameAnimal_C.innerHTML = texto5;
             break;
         case "c-3":
-            let texto2 = `<h4 class="title-caribe">Flamenco</h4>`
+            let texto2 = `<h3>Flamenco</h3>
+            <h4 class="title-caribe">Phoenicopterus ruber</h4>`
             $nameAnimal_C.innerHTML = texto2;
             break;
         default:
@@ -73,20 +75,20 @@ const $modal_C = document.getElementById('modal-c');
                     <img src="img/caribe.png" alt="">
                 </div>
                 <div class="footer-foto-animal">
-                    <img src="img/rasgos.png" alt="">
                     <img src="img/mamifero.png" alt="">
-                    <img src="img/carnivoro.png" alt="">
-                    <img src="img/habitad.png" alt="">
+                    <img src="img/herbivoro.png" alt="">
+                    <img src="img/bosque-humedo.png" alt="">
                 </div>
             </div>
             <div class="info-animal">
                 <div class="total-info animal">
                     <div class="head-info">
                         <div class="title-info">
-                            <h4 class="title-caribe">El mono tití cabeciblanco</h4>
+                            <h3>El mono tití cabeciblanco</h3>
+                            <h4 class="title-caribe">Saguinus oedipus</h4>
                         </div>
                         <div class="estado">
-                            <img src="img/vulnerable.png" alt="">
+                            <img src="img/CR1.png" alt="">
                         </div>
                     </div>
                     <div class="info">
@@ -130,10 +132,9 @@ const $modal_C = document.getElementById('modal-c');
                     <img src="img/caribe.png" alt="">
                 </div>
                 <div class="footer-foto-animal">
-                    <img src="img/rasgos.png" alt="">
-                    <img src="img/mamifero.png" alt="">
-                    <img src="img/carnivoro.png" alt="">
-                    <img src="img/habitad.png" alt="">
+                    <img src="img/ave.png" alt="">
+                    <img src="img/herbivoro.png" alt="">
+                    <img src="img/selvas.png" alt="">
                 </div>
             </div>
             <div class="info-animal">
@@ -144,7 +145,7 @@ const $modal_C = document.getElementById('modal-c');
                             <h4 class="title-caribe">Ara macao</h4>
                         </div>
                         <div class="estado">
-                            <img src="img/vulnerable.png" alt="">
+                            <img src="img/LC1.png" alt="">
                         </div>
                     </div>
                     <div class="info">
@@ -186,20 +187,21 @@ const $modal_C = document.getElementById('modal-c');
                     <img src="img/caribe.png" alt="">
                 </div>
                 <div class="footer-foto-animal">
-                    <img src="img/rasgos.png" alt="">
-                    <img src="img/mamifero.png" alt="">
+                    <img src="img/ave.png" alt="">
                     <img src="img/carnivoro.png" alt="">
-                    <img src="img/habitad.png" alt="">
+                    <img src="img/humedales-costeros.png" alt="">
                 </div>
             </div>
             <div class="info-animal">
                 <div class="total-info animal">
                     <div class="head-info">
                         <div class="title-info">
-                            <h3>Flamenco</h3>
+                        <h3>Flamenco</h3>
+                            <h4 class="title-caribe">Phoenicopterus ruber</h4>
+                            
                         </div>
                         <div class="estado">
-                            <img src="img/vulnerable.png" alt="">
+                            <img src="img/LC1.png" alt="">
                         </div>
                     </div>
                     <div class="info">
@@ -320,10 +322,9 @@ const $modal_C = document.getElementById('modal-c');
                     <img src="img/caribe.png" alt="">
                 </div>
                 <div class="footer-foto-animal">
-                    <img src="img/rasgos.png" alt="">
                     <img src="img/mamifero.png" alt="">
                     <img src="img/carnivoro.png" alt="">
-                    <img src="img/habitad.png" alt="">
+                    <img src="img/bosques.png" alt="">
                 </div>
             </div>
             <div class="info-animal">
@@ -334,7 +335,7 @@ const $modal_C = document.getElementById('modal-c');
                             <h4 class="title-caribe">Leopardus tigrinus</h4>
                         </div>
                         <div class="estado">
-                            <img src="img/vulnerable.png" alt="">
+                            <img src="img/vulnerable1.png" alt="">
                         </div>
                     </div>
                     <div class="info">

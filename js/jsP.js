@@ -76,7 +76,7 @@ const $modal_P = document.getElementById('modal-p');
                 <div class="footer-foto-animal">
                     <img src="img/reptil.png" alt="">
                     <img src="img/carnivoro.png" alt="">
-                    <img src="img/selva.png" alt="">
+                    <img src="img/bosque-humedo.png" alt="">
                 </div>
             </div>
             <div class="info-animal">
@@ -87,7 +87,7 @@ const $modal_P = document.getElementById('modal-p');
                         <h4 class="title-pacifico">Bothriechis schlegelii (Viperidae)</h4>
                         </div>
                         <div class="estado">
-                            <img src="img/vulnerable.png" alt="">
+                            <img src="img/vulnerable2.png" alt="">
                         </div>
                     </div>
                     <div class="info">
@@ -136,7 +136,7 @@ const $modal_P = document.getElementById('modal-p');
                 <div class="footer-foto-animal">
                     <img src="img/ave.png" alt="">
                     <img src="img/insectivoro.png" alt="">
-                    <img src="img/selva.png" alt="">
+                    <img src="img/selva-humeda.png" alt="">
                 </div>
             </div>
             <div class="info-animal">
@@ -147,7 +147,7 @@ const $modal_P = document.getElementById('modal-p');
                         <h4 class="title-pacifico">Neomorphus radiolosus</h4>
                         </div>
                         <div class="estado">
-                            <img src="img/vulnerable.png" alt="">
+                            <img src="img/vulnerable2.png" alt="">
                         </div>
                     </div>
                     <div class="info">
@@ -196,7 +196,7 @@ const $modal_P = document.getElementById('modal-p');
                 <div class="footer-foto-animal">
                     <img src="img/anfibio.png" alt="">
                     <img src="img/insectivoro.png" alt="">
-                    <img src="img/selva.png" alt="">
+                    <img src="img/selva-humeda.png" alt="">
                 </div>
             </div>
             <div class="info-animal">
@@ -207,7 +207,7 @@ const $modal_P = document.getElementById('modal-p');
                         <h4 class="title-pacifico">Phyllobates terribilis,</h4>
                         </div>
                         <div class="estado">
-                            <img src="img/vulnerable.png" alt="">
+                            <img src="img/vulnerable2.png" alt="">
                         </div>
                     </div>
                     <div class="info">
@@ -252,9 +252,9 @@ const $modal_P = document.getElementById('modal-p');
                     <img src="img/pacifica.png" alt="">
                 </div>
                 <div class="footer-foto-animal">
-                    <img src="img/mamifero.png" alt="">
+                    <img src="img/pez.png" alt="">
                     <img src="img/carnivoro.png" alt="">
-                    <img src="img/oceano.png" alt="">
+                    <img src="img/oceanoP.png" alt="">
                 </div>
             </div>
             <div class="info-animal">
@@ -265,7 +265,7 @@ const $modal_P = document.getElementById('modal-p');
                             <h4 class="title-pacifico">Sphyrna lewini </h4>
                         </div>
                         <div class="estado">
-                            <img src="img/vulnerable.png" alt="">
+                            <img src="img/vulnerable2.png" alt="">
                         </div>
                     </div>
                     <div class="info">

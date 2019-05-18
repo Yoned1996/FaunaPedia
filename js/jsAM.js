@@ -73,11 +73,12 @@ const $modal_AM = document.getElementById('modal-am');
                 <img src="img/amazonica/2.jpg" alt="" class="picture-animal">
                 <div class="head-foto-animal">
                     <img src="img/logo.png" alt="">
-                    <img src="img/amazonica.png" alt="">
+                    <img src="img/amazonas.png" alt="">
                 </div>
                 <div class="footer-foto-animal">
-                    <img src="img/pez.png" alt="">
-                    <img src="img/carnivoro.png" alt="">
+                    <img src="img/mamifero.png" alt="">
+                    <img src="img/herbivoro.png" alt="">
+                    <img src="img/bosques.png" alt="">
                 </div>
             </div>
             <div class="info-animal">
@@ -88,7 +89,7 @@ const $modal_AM = document.getElementById('modal-am');
                             <h4 class="title-amazonica">Bradypus tridactylus</h4>
                         </div>
                         <div class="estado">
-                            <img src="img/preocupacion-menor.png" alt="">
+                            <img src="img/LC4.png" alt="">
                         </div>
                     </div>
                     <div class="info">
@@ -131,11 +132,12 @@ const $modal_AM = document.getElementById('modal-am');
                 <img src="img/amazonica/3.jpg" alt="" class="picture-animal">
                 <div class="head-foto-animal">
                     <img src="img/logo.png" alt="">
-                    <img src="img/amazonica.png" alt="">
+                    <img src="img/amazonas.png" alt="">
                 </div>
                 <div class="footer-foto-animal">
                     <img src="img/mamifero.png" alt="">
                     <img src="img/herbivoro.png" alt="">
+                    <img src="img/cuenca-amazonica.png" alt="">
                 </div>
             </div>
             <div class="info-animal">
@@ -146,7 +148,7 @@ const $modal_AM = document.getElementById('modal-am');
                             <h4 class="title-amazonica">Trichechus inunguis</h4>
                         </div>
                         <div class="estado">
-                            <img src="img/vulnerable.png" alt="">
+                            <img src="img/vulnerable4.png" alt="">
                         </div>
                     </div>
                     <div class="info">
@@ -185,11 +187,12 @@ const $modal_AM = document.getElementById('modal-am');
                 <img src="img/amazonica/4.jpg" alt="" class="picture-animal">
                 <div class="head-foto-animal">
                     <img src="img/logo.png" alt="">
-                    <img src="img/amazonica.png" alt="">
+                    <img src="img/amazonas.png" alt="">
                 </div>
                 <div class="footer-foto-animal">
                     <img src="img/mamifero.png" alt="">
                     <img src="img/carnivoro.png" alt="">
+                    <img src="img/cuenca-amazonica.png" alt="">
                 </div>
             </div>
             <div class="info-animal">
@@ -200,7 +203,7 @@ const $modal_AM = document.getElementById('modal-am');
                             <h4 class="title-amazonica">Inia geoffrensis</h4>
                         </div>
                         <div class="estado">
-                            <img src="img/extincion.png" alt="">
+                            <img src="img/EN4.png" alt="">
                         </div>
                     </div>
                     <div class="info">
@@ -243,11 +246,12 @@ const $modal_AM = document.getElementById('modal-am');
                 <img src="img/amazonica/1.jpg" alt="" class="picture-animal">
                 <div class="head-foto-animal">
                     <img src="img/logo.png" alt="">
-                    <img src="img/amazonica.png" alt="">
+                    <img src="img/amazonas.png" alt="">
                 </div>
                 <div class="footer-foto-animal">
-                    <img src="img/pez.png" alt="">
-                    <img src="img/carnivoro.png" alt="">
+                <img src="img/pez.png" alt="">
+                <img src="img/carnivoro.png" alt="">
+                <img src="img/rios-arroyos.png" alt="">
                 </div>
             </div>
             <div class="info-animal">
@@ -258,7 +262,7 @@ const $modal_AM = document.getElementById('modal-am');
                         <h4 class="title-amazonica">Electrophorus electricus</h4>
                         </div>
                         <div class="estado">
-                            <img src="img/preocupacion-menor.png" alt="">
+                        <img src="img/LC4.png" alt="">
                         </div>
                     </div>
                     <div class="info">
